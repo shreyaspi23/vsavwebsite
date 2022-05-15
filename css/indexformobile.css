@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    font-family:  "Poppins",-apple-system, BlinkMacSystemFont, roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+body {
+    background: url(Background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.login {
+    zoom: 0.6;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+    mix-blend-mode: normal;
+    backdrop-filter: blur(40px);
+    border-radius: 32px;
+}
+
+.av {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -15px;
+}
+
+::placeholder{
+    font-weight: 300;
+    font-size: 18px;
+    color: #ffffff;
+    opacity: 0.4;
+}
+
+.login form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    width: 400px;
+}
+
+.login form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color:#4B81A6 ;
+    color: #ffffff;
+}
+
+.login form input[type="text"], .login form input[type="password"]{
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    background-color: #4B81A6;
+    border: 2px solid #4B81A6;  
+    padding: 0 15px;
+    caret-color: #ffffff;
+    outline: none;
+}
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active{
+  transition: background-color 5000s;
+  -webkit-text-fill-color: #fff !important;
+}
+
+.login form input[type="submit"] {
+    width: 300px;
+    height: 60px;
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color: #4B81A6;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 24px;
+    text-align:center;
+    color: #ffffff;
+}

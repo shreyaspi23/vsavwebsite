@@ -1,0 +1,198 @@
+body {
+    background-image: url('background2formobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.notcontainer{
+    position: absolute;
+    display: flex;
+    top: 205vh;
+    width: fit-content;
+    margin: auto;
+}
+
+.container{
+    display: block;
+    width: 300px;
+    margin: auto;
+    margin-top: 65px;
+}
+
+.avlogo{
+    background-image:url("avlogo.png");
+    background-size: contain;
+    position: absolute;
+    top: 50px;
+    width: 98px;
+    height: 108px;
+    margin-left: -50px;
+}
+
+.headerattop{
+    height: auto;
+    width: 200px;
+    margin-top: 50px;
+    margin-right: 3vw;
+    font-size: 25px;
+    text-align: right;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    user-select: none;
+    background: linear-gradient(60deg, #833ab4, #fd1d1d, #fcb045);
+    background-size: 200% 200%;
+    animation: rainbow 5s ease-in infinite;
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:rgba(255, 255, 255, 1);
+    transition: color .3s ease-in-out;
+}
+
+.headerattop:hover{
+  color:rgba(0,0,0,0);
+}
+
+@keyframes rainbow { 
+  0%{background-position:left}
+  50%{background-position:right}
+  100%{background-position:left}
+}
+    
+.box{
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.0px );
+    -webkit-backdrop-filter: blur( 5.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 300px;
+    height: 410px;
+    border-radius: 30px;
+}
+
+
+.container1{
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.container2{
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.container3{
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.headerforsections{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    margin-top: 23px;
+    font-family: Poppins;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: inherit;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.admin{
+    width: 240px;
+}
+
+.sectiontext{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: inherit;
+    width: 200px;
+    height: 40px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.text1{
+    margin-top: 100px;
+}
+
+.text2{
+    margin-top: 180px;
+    width: fit-content;
+}
+
+.text3{
+    margin-top: 260px;
+}
+
+.text4{
+    margin-top: 340px;
+}
+
+.righttext1{
+    margin-top: 160px;
+}
+
+.righttext2{
+    margin-top: 230px;
+}
+
+.righttext3{
+    margin-top: 300px;
+}
+
+.sectiontext:hover{
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.logoutfunc{
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.logout{
+    position: absolute;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    color: #FFFFFF;
+    line-height: 50px;
+    vertical-align: top;
+    font-size: 22px;
+    left: 38vw;
+}
+
+.fas{
+    position: absolute;
+    font-size: 22px;
+    line-height: 50px;
+    vertical-align: top;
+    left: 59.5vw;
+    color: #FFFFFF;
+}
